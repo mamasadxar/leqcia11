@@ -153,7 +153,7 @@ h5 {
     margin-bottom: 23px;
     display: inline-block;
 }
-h6 {
+p {
     color: #99999A;
     font-size: 17px;
     font-family: Helvetica;
@@ -194,6 +194,55 @@ h6 {
 }
 .listelements {
     color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 10px;
+}
+.thirdlane {
+    display: inline-block;
+    width: 125px;
+    vertical-align: top;
+    margin-left: 69px;
+    margin-top: 63px;
+}
+.fourthlane {
+    display: inline-block;
+    margin-left: 89px;
+    vertical-align: top;
+    margin-top: 63px;
+}
+.icons {
+    display: inline-flex;
+    flex-direction: column;
+    width: 27px;
+    justify-content: space-between;
+    height: 92px;
+    align-items: end;
+}
+.futer1 {
+    width: 21px;
+    height: 15px;
+}
+.futer2 {
+    width: 27px;
+    height: 22px;
+}
+.futer3 {
+    width: 13px;
+    height: 22px;
+}
+.fh {
+    display: inline-flex;
+    flex-direction: column;
+    margin-left: 15px;
+    height: 92px;
+    justify-content: space-between;
+}
+.h7 {
+    color: #FFF;
     font-size: 17px;
     font-family: Helvetica;
     font-style: normal;

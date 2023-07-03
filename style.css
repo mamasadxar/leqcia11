@@ -29,6 +29,7 @@ h2 {
     background: #F8F8F8;
     padding-left: 21px;
     padding-top: 23px;
+    outline: none;
 }
 .rightside {
     display: inline-flex;
@@ -44,6 +45,7 @@ h2 {
     background: #F8F8F8;
     padding-left: 19px;
     margin-left: 14px;
+    outline: none;
 }
 .namesurname {
     width: 370px;
@@ -52,6 +54,7 @@ h2 {
     background: #F8F8F8;
     padding-left: 19px;
     margin-left: 14px;
+    outline: none;
 }
 .email {
     width: 370px;
@@ -60,6 +63,15 @@ h2 {
     background: #F8F8F8;
     margin-left: 14px;
     padding-left: 19px;
+    outline: none;
+}
+::placeholder {
+    color: #99999A;
+    font-size: 14px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
 }
 .send {
     width: 370px;
@@ -121,12 +133,42 @@ h4 {
 }
 .flex2 {
     display: flex;
-    max-width: 100%;
+    width: 100%;
     justify-content: space-evenly;
     margin-bottom: 39px;
 }
-.footer {
+.f1 {
     max-width: 100%;
     height: 372px;
-    background-color: #000000;
+    background-color: #000;
+}
+h5 {
+    color: #FFF;
+    font-size: 26px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 63px;
+    margin-bottom: 23px;
+    display: inline-block;
+}
+h6 {
+    color: #99999A;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    display: inline-block;
+    margin-bottom: 26px;
+}
+.upc {
+    color: #FFF;
+    font-size: 21px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    display: inline-block;
 }

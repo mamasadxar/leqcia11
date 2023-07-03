@@ -3,7 +3,7 @@
     width: 1150px;
     max-width: 100%;
 }
-h1 {
+.h1 {
     color: #5863E3;
     font-size: 17px;
     font-family: Helvetica;
@@ -171,4 +171,32 @@ h6 {
     font-weight: 400;
     line-height: normal;
     display: inline-block;
+    margin-bottom: 32px;
+}
+.firstlane {
+    display: inline-block;
+    width: 295px;
+}
+.logo {
+    margin-right: 7px;
+}
+.secondlane {
+    display: inline-block;
+    width: 125px;
+    vertical-align: top;
+    margin-left: 191px;
+    margin-top: 63px;
+}
+.footerflex {
+    display: inline-flex;
+    width: 100%;
+    flex-direction: column;
+}
+.listelements {
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }

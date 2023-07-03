@@ -1,0 +1,121 @@
+.container {
+    margin: 0 auto;
+    width: 1150px;
+    max-width: 100%;
+}
+h1 {
+    color: #5863E3;
+    font-size: 17px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 57px;
+    margin-bottom: 7px;
+}
+h2 {
+    color: #000;
+    font-size: 49px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 57px;
+}
+.description {
+    width: 756px;
+    height: 298px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    padding-left: 21px;
+    padding-top: 23px;
+}
+.rightside {
+    display: inline-flex;
+    width: 370px;
+    height: 301px;
+    vertical-align: top;
+    flex-direction: column;
+}
+.subject {
+    width: 370px;
+    height: 59px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    padding-left: 19px;
+    margin-left: 14px;
+}
+.namesurname {
+    width: 370px;
+    height: 59px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    padding-left: 19px;
+    margin-left: 14px;
+}
+.email {
+    width: 370px;
+    height: 59px;
+    border: 2px solid rgba(212, 211, 211, 0.30);
+    background: #F8F8F8;
+    margin-left: 14px;
+    padding-left: 19px;
+}
+.send {
+    width: 370px;
+    height: 59px;
+    background: #5968F4;
+    text-align: center;
+    margin-left: 14px;
+    margin-top: 13px;
+    color: #FBFBFF;
+    border: none;
+}
+.cards {
+    display: flex;
+    width: 100%;
+    margin-top: 51px;
+    justify-content: space-around;
+}
+.card1 {
+    width: 226px;
+    height: 157px;
+    display: inline-block;
+    align-content: center;
+}
+.circle {
+    border-radius: 50%;
+    width: 68px;
+    height: 68px;
+    background-color: #5968F4;
+    display: inline-block;
+    margin-bottom: 16px;
+    margin-left: 79px;
+}
+.center {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: inline-block;
+    position: relative;
+}
+h3 {
+    color: #4E4D54;
+    font-size: 20px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 8px;
+}
+h4 {
+    color: #99999A;
+    font-size: 15px;
+    font-family: Helvetica;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    text-align: center;
+    margin-bottom: 8px;
+}
